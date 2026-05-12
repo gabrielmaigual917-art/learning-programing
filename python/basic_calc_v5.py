@@ -17,27 +17,22 @@ n2 = float(input ( "enter second number "))
 main_menu()
 opt = int(input("Enter any option: "))
 
-if (opt == 1)
-    add = n1 + n2
-    print(f"addition is: {add}") 
-
-if (opt == 2)
+if(opt ==1):
+add= n1+ n2
+print(f"addition is : {add}")
+elif (opt == 2)
     subs = n1 - n2
-    print(f"subtaction is: {subs}") 
-    
-if (opt == 3)
+    print(f"subtaction is: {subs}")   
+elif (opt == 3)
     mult = n1 * n2
-    print(f"multiplication is: {mult}") 
-
-if (opt == 4)
+    print(f"multiplication is: {mult}")   
+elif(opt == 4)
     div = n1 / n2
-    print(f"division is: {div}") 
-
-if (opt == 5)
+    print(f"division is: {div}")
+elif  (opt == 5)
     avg = n1 - n2
-    print(f"averege is: {avg}") 
-
-if (opt == 6):
+    print(f"averege is: {avg}")
+elif (opt == 6):
     add = n1 + n2
     add = n1 - n2
     mult = n1 * n2
@@ -47,5 +42,14 @@ if (opt == 6):
      print(f"subtaction is: {subs}") 
      print(f"multiplication is: {mult}") 
      print(f"division is: {div}") 
-     print(f"averege is: {avg}") 
-      
+     print(f"averege is: {avg}")
+else 
+    print (":::: invalid option ::: ")
+
+
+
+
+
+
+
+
